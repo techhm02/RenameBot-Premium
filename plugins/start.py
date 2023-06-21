@@ -10,12 +10,12 @@ from helper.database import  insert ,find_one,used_limit,usertype,uploadlimit,ad
 from pyrogram.file_id import FileId
 from helper.database import daily as daily_
 from helper.date import add_date ,check_expi
-CHANNEL = os.environ.get('CHANNEL',"")
+CHANNEL = os.environ.get('CHANNEL',"hdmaxx")
 import datetime
 from datetime import date as date_
-STRING = os.environ.get("STRING","")
-log_channel = int(os.environ.get("LOG_CHANNEL",""))
-token = os.environ.get('TOKEN','')
+STRING = os.environ.get("STRING","BQB4wCQSqEaE7anB_Uq1khFKOYtikl8IOQV8FNyWca4oZ1lP9CAsRT1jIT2J0wOTY_hlPA-0HGwAl-g4hjx9_NbJsj5GLlqY7ekQd6Y95gqYtohw-KfR6z3GGx-8CXbzSwCftJPYoEghvSWUTgLTyPbpyO96xNTQg4o5C3NjsaNnPclYp1fQB2O_jN12srBd6noUjIM6Z4SocsqhJ14xiWOyPsx3iSU6i93jEqsH0uo0qnMfm7p_b5CcHyuhM3xtTUIHZ-BncFYOqR0boZNlbp-Z5BDwwp-GQF9U7RvKNJLSSfQJevhnmw-6FpeVVQ_4gltLM4_lzlB16WeRRT1fzM0Nc2uVuQA")
+log_channel = int(os.environ.get("LOG_CHANNEL","-1001765544203"))
+token = os.environ.get('TOKEN','6145510462:AAHXP6-gJsNED1zL-3dxpiPUIAAIIFiC8Dg')
 botid = token.split(':')[0]
 
 #Part of Day --------------------
